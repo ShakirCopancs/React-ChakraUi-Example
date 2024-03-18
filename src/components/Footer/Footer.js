@@ -36,18 +36,18 @@ export default function Footer(props) {
         <Link
           // color={linkTeal}
           color="teal.400"
-          href="https://www.creative-tim.com"
+          href="#"
           target="_blank"
         >
           {document.documentElement.dir === "rtl"
             ? " توقيت الإبداعية"
-            : "Creative Tim "}
+            : "Copan"}
         </Link>
         &
         <Link
           // color={linkTeal}
           color="teal.400"
-          href="https://www.simmmple.com"
+          href="#"
           target="_blank"
         >
           {document.documentElement.dir === "rtl" ? "سيممبل " : " Simmmple"}
@@ -63,10 +63,10 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
-          <Link color="gray.400" href="https://www.creative-tim.com">
+          <Link color="gray.400" href="#">
             {document.documentElement.dir === "rtl"
               ? "توقيت الإبداعية"
-              : "Creative Tim"}
+              : "Copan"}
           </Link>
         </ListItem>
         <ListItem
@@ -75,7 +75,7 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
-          <Link color="gray.400" href="https://www.simmmple.com">
+          <Link color="gray.400" href="#">
             {document.documentElement.dir === "rtl" ? "سيممبل" : "Simmmple"}
           </Link>
         </ListItem>
@@ -85,20 +85,12 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
-          <Link
-            color="gray.400"
-            href="#blog"
-            href="https://creative-tim.com/blog"
-          >
+          <Link color="gray.400" href="#blog" href="#">
             {document.documentElement.dir === "rtl" ? "مدونة" : "Blog"}
           </Link>
         </ListItem>
         <ListItem>
-          <Link
-            color="gray.400"
-            href="#license"
-            href="https://www.creative-tim.com/license"
-          >
+          <Link color="gray.400" href="#license" href="#">
             {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
           </Link>
         </ListItem>
